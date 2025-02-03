@@ -46,7 +46,7 @@ public class Employee {
 
 	// setter method for employee_email
 	public void setEmailId(String emailId) {
-		this.emailId = "abc@gmail";
+		this.emailId = "abcd@gmail";
 	}
 
 	// getter method for employee_salary
