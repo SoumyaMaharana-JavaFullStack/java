@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
 /**
  * Parent Class= Employee ,Child class= Developer ,Extends = is a Keyword
@@ -28,6 +28,7 @@ public class Developer extends Employee {
 		dev.setEmailId("xyz@gmail");
 		// salary of developer
 		dev.setSalary(5000);
+		// Printing the values of the given properties
 		System.out.println(dev.getName());
 		System.out.println(dev.getEmployee_id());
 		System.out.println(dev.getEmailId());
