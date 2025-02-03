@@ -26,7 +26,7 @@ public class Employee {
 
 	// setter method for employee_id
 	public void setEmployee_id(int employee_id) {
-		Employee_id = employee_id;
+		Employee_id = 101;
 	}
 
 	// getter method for employee_name
@@ -36,7 +36,7 @@ public class Employee {
 
 	// setter method for employee_name
 	public void setName(String name) {
-		this.name = name;
+		this.name = "hari";
 	}
 
 	// getter method for employee_email
@@ -46,7 +46,7 @@ public class Employee {
 
 	// setter method for employee_email
 	public void setEmailId(String emailId) {
-		this.emailId = emailId;
+		this.emailId = "abc@gmail";
 	}
 
 	// getter method for employee_salary
@@ -56,7 +56,7 @@ public class Employee {
 
 	// setter method for employee_salary
 	public void setSalary(int salary) {
-		this.salary = salary;
+		this.salary = 2000;
 	}
 
 	public Employee() {
