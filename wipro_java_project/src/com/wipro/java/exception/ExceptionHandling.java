@@ -14,20 +14,21 @@ public class ExceptionHandling {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a=10;
-		int b=0;
-		int c=0;
-		//It's throws an exception called ArithmeticException
+		int num1 = 10;
+		int num2 = 0;
+		float result = 0;
+		// It's throws an exception called ArithmeticException
 		try {
-			c=a/b;
+			result = num1 / num2;
 		}
-		//Catch the exception
-		catch(Exception e){
+		// Catch the exception
+		catch (Exception e) {
 			System.out.println(e.toString());
+		} finally {
+			System.out.println("Code will excute");
 		}
-	     
-	     System.out.println("Program Excuted Succesfully" );
-		
+
+		System.out.println("Program Executed Succesfully");
 
 	}
 
