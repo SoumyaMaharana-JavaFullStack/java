@@ -6,7 +6,7 @@ package com.wipro.java.exception;
 /**
  * 
  */
-//Concept of ExceptionGandling
+//Concept of ExceptionHandling
 public class ExceptionHandling {
 
 	/**
@@ -24,7 +24,7 @@ public class ExceptionHandling {
 		// Catch the exception
 		catch (Exception e) {
 			System.out.println(e.toString());
-		} finally {
+		} finally {//it will execute at anymore whether the exceptions occurred or not
 			System.out.println("Code will excute");
 		}
 
