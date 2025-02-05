@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wipro.java.collection;
+package com.wipro.java.collections;
 
 import java.util.*;
 
