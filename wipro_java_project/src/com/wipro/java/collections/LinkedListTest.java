@@ -9,7 +9,7 @@ import java.util.*;
  * Java program demonstrating LinkedList operations such as add, remove, and
  * get.
  */
-public class Linkedlist {
+public class LinkedListTest {
 
 	/**
 	 * @param args
